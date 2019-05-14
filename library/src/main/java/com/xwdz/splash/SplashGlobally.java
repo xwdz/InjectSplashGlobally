@@ -31,11 +31,11 @@ public class SplashGlobally {
             final String action = intent.getAction();
 
             if (Intent.ACTION_USER_PRESENT.equals(action)) {
-                mSimpleScreensListener.onReceiverActionUserPresent(context,intent, mClass);
+                mSimpleScreensListener.onReceiverActionUserPresent(context, intent, mClass);
             } else if (Intent.ACTION_SCREEN_ON.equals(action)) {
-                mSimpleScreensListener.onReceiverActionON(context,intent, mClass);
+                mSimpleScreensListener.onReceiverActionON(context, intent, mClass);
             } else if (Intent.ACTION_SCREEN_OFF.equals(action)) {
-                mSimpleScreensListener.onReceiverActionOFF(context,intent, mClass);
+                mSimpleScreensListener.onReceiverActionOFF(context, intent, mClass);
             }
         }
     }
@@ -51,7 +51,11 @@ public class SplashGlobally {
 
 
     private void init(Application application, final Class<?> splashClazz) {
-        init(application, splashClazz, new SimpleScreensListener());
+        try {
+            init(application, splashClazz, new SimpleScreensListener());
+        } catch (Throwable e) {
+            e.printStackTrace();
+        }
     }
 
     private void init(Application application, final Class<?> splashClazz, SimpleScreensListener simpleScreensListener) {

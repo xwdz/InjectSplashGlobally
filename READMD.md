@@ -1,1 +1,4 @@
 ### SplashGlobally
+
+### 前言
+
