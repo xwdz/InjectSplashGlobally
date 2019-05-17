@@ -42,8 +42,6 @@ public class App extends Application {
 
 
 
-**第二个参数为您自定义开屏的界面**，**至此已完成注入开屏功能**。
-
 
 
  
