@@ -2,6 +2,12 @@
 
 [![Download](https://api.bintray.com/packages/quinnhuang/widget/SplashGlobally/images/download.svg?version=0.0.1) ](https://bintray.com/quinnhuang/widget/SplashGlobally/0.0.1/link) 
 
+
+![simple](./img/simple_splash.gif)
+
+
+#### 一行代码实现如上注入开屏界面注入,开发者只要专注于开屏界面UI、数据逻辑即可。
+
 ### 前言
 
 去年使用反射实现过一种[一行代码实现开屏广告](http://xwcc.fun/2018/05/09/Android-Hook-%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A/)。由于是基于反射，如果各个系统版本Api、变量名、各机型ROM、有更改还得适配比较麻烦，存在不稳定性。
@@ -34,6 +40,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        // 第二个参数指定为你自定义的开屏界面xxx.class
         SplashGlobally.inject(this, WelcomeActivity.class);
     }
 }

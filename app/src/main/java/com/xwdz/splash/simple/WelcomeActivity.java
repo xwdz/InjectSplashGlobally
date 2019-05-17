@@ -20,6 +20,7 @@ public class WelcomeActivity extends AppCompatActivity {
         textView = new TextView(this);
         textView.setTextColor(Color.RED);
         textView.setTextSize(50);
+        textView.setBackgroundColor(Color.YELLOW);
         textView.setText("WelcomeActivity");
         textView.setGravity(Gravity.CENTER);
         setContentView(textView);
