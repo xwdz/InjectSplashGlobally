@@ -1,9 +1,17 @@
+
+
+
+
 ### SplashGlobally
 
 [![Download](https://api.bintray.com/packages/quinnhuang/widget/SplashGlobally/images/download.svg?version=0.0.1) ](https://bintray.com/quinnhuang/widget/SplashGlobally/0.0.1/link) 
 
 
-![simple](./img/simple_splash.gif)
+
+
+
+<img src="./img/simple_splash.gif" width="200px">
+
 
 
 #### 一行代码实现如上注入开屏界面注入,开发者只要专注于开屏界面UI、数据逻辑即可。
