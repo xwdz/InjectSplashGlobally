@@ -2,7 +2,7 @@ package com.xwdz.splash.simple;
 
 import android.app.Application;
 
-import com.xwdz.splash.SplashGlobally;
+import com.xwdz.splash.InjectSplashGlobally;
 
 
 /**
@@ -15,7 +15,7 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
 
-        SplashGlobally.inject(this, WelcomeActivity.class);
+        InjectSplashGlobally.inject(this, WelcomeActivity.class);
 
     }
 }

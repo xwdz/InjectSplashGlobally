@@ -13,9 +13,9 @@ import android.os.Bundle;
  * @author xingwei.huang (xwdz9989@gmail.com)
  * @since v1.0.0
  */
-public class SplashGlobally {
+public class InjectSplashGlobally {
 
-    private static final String TAG = SplashGlobally.class.getSimpleName();
+    private static final String TAG = InjectSplashGlobally.class.getSimpleName();
 
     private int mForegroundCount;
     private int mIgnoreBufferCount;
@@ -42,11 +42,11 @@ public class SplashGlobally {
 
 
     public static void inject(Application application, final Class<?> splashClass) {
-        new SplashGlobally().init(application, splashClass);
+        new InjectSplashGlobally().init(application, splashClass);
     }
 
     public static void inject(Application application, final Class<?> splashClass, SimpleScreensListener simpleScreensListener) {
-        new SplashGlobally().init(application, splashClass, simpleScreensListener);
+        new InjectSplashGlobally().init(application, splashClass, simpleScreensListener);
     }
 
 
