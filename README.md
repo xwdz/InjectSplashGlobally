@@ -4,7 +4,7 @@
 
 ### SplashGlobally
 
-[ ![Download](https://api.bintray.com/packages/quinnhuang/widget/InjectSplashGlobally/images/download.svg) ](https://bintray.com/quinnhuang/widget/InjectSplashGlobally/_latestVersion)
+DownloadLastVersion = [![Download](https://api.bintray.com/packages/quinnhuang/widget/InjectSplashGlobally/images/download.svg) ](https://bintray.com/quinnhuang/widget/InjectSplashGlobally/_latestVersion)
  
 
 
