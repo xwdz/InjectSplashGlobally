@@ -36,7 +36,7 @@ DownloadLastVersion = [![Download](https://api.bintray.com/packages/quinnhuang/w
 ### Download
 
 ```
-compile 'com.xwdz:SplashGlobally:$DownloadLastVersion'
+implementation 'com.xwdz:InjectSplashGlobally:0.0.1'
 ```
 
 

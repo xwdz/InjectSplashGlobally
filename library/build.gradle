@@ -40,7 +40,8 @@ publish {
     groupId = 'com.xwdz'
     artifactId = 'InjectSplashGlobally'
     publishVersion = '0.0.1'
-    desc = '一个全局注入SplashActivity界面框架。支持首次打开App开屏界面、再进程存活的情况下从后台进入前台注入开屏界面、再进程存活的情况下锁屏再亮屏进入开屏界面。'//描述，不重要
+    desc = '一个全局注入SplashActivity界面框架。支持首次打开App开屏界面、再进程存活的情况下从后台进入前台注入开屏界面、再进程存活的情况下锁屏再亮屏进入开屏界面。'
+//描述，不重要
     website = siteUrl//项目主页
 }
 tasks.withType(Javadoc) {//防止编码问题
