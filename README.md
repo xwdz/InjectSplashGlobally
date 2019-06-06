@@ -4,7 +4,8 @@
 
 ### SplashGlobally
 
-[![Download](https://api.bintray.com/packages/quinnhuang/widget/SplashGlobally/images/download.svg?version=0.0.1) ](https://bintray.com/quinnhuang/widget/SplashGlobally/0.0.1/link) 
+[ ![Download](https://api.bintray.com/packages/quinnhuang/widget/InjectSplashGlobally/images/download.svg) ](https://bintray.com/quinnhuang/widget/InjectSplashGlobally/_latestVersion)
+ 
 
 
 
